@@ -1,9 +1,9 @@
-// Portfolio JavaScript with PhotoSwipe integration
+
 
 console.log("Portfolio script loaded.");
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize all PhotoSwipe galleries
+
     const lightbox = new PhotoSwipeLightbox({
         gallery: '.portfolio-grid',
         children: '.portfolio-item',
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         zoomAnimationDuration: 200,
     });
 
-    // Add custom caption if needed
+
     lightbox.on('uiRegister', () => {
         lightbox.pswp.ui.registerElement({
             name: 'custom-caption',
@@ -31,12 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lightbox.init();
 
-    // --- Portfolio Item Hover Effects ---
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     portfolioItems.forEach(item => {
-        // Hover effects are now handled in CSS
+
     });
 
-    // Fade-in effect removed, no JS needed for section visibility.
 
-}); // Closing brace for DOMContentLoaded listener
+});

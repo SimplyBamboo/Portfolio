@@ -1,4 +1,4 @@
-# Bamboorods - Roblox Developer Portfolio Website
+# SimplyBamboo - Roblox Developer Portfolio Website
 
 This repository contains the source code for my portfolio website, showcasing my building and modeling work on Roblox.
 
